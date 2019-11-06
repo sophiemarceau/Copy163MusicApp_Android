@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sophiemarceauqu.lib_common_ui">
+
+    <application>
+        <activity android:name="com.sophiemarceauqu.lib_common_ui.base.BaseActivity"></activity>
+    </application>
+
+</manifest>
