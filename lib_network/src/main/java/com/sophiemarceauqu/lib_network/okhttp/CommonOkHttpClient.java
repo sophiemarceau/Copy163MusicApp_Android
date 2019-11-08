@@ -3,7 +3,7 @@ package com.sophiemarceauqu.lib_network.okhttp;
 
 import com.sophiemarceauqu.lib_network.okhttp.response.CommonFileCallback;
 import com.sophiemarceauqu.lib_network.okhttp.response.CommonJsonCallback;
-import com.sophiemarceauqu.lib_network.okhttp.response.listener.DisposeDataHandle;
+import com.sophiemarceauqu.lib_network.okhttp.listener.DisposeDataHandle;
 
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;

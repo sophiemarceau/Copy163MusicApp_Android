@@ -1,4 +1,4 @@
-package com.sophiemarceauqu.lib_network.okhttp.response.listener;
+package com.sophiemarceauqu.lib_network.okhttp.listener;
 
 public class DisposeDataHandle {
     public DisposeDataListener mListener = null;

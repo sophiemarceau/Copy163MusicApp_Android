@@ -5,8 +5,8 @@ import android.os.Handler;
 import android.os.Looper;
 
 import com.sophiemarceauqu.lib_network.okhttp.exception.OkHttpException;
-import com.sophiemarceauqu.lib_network.okhttp.response.listener.DisposeDataHandle;
-import com.sophiemarceauqu.lib_network.okhttp.response.listener.DisposeDataListener;
+import com.sophiemarceauqu.lib_network.okhttp.listener.DisposeDataHandle;
+import com.sophiemarceauqu.lib_network.okhttp.listener.DisposeDataListener;
 import com.sophiemarceauqu.lib_network.okhttp.utils.ResponseEntityToModule;
 
 import java.io.IOException;
