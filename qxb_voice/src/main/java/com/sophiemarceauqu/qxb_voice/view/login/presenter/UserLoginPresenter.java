@@ -1,7 +1,7 @@
 package com.sophiemarceauqu.qxb_voice.view.login.presenter;
 
 import com.google.gson.Gson;
-import com.sophiemarceauqu.lib_network.okhttp.response.listener.DisposeDataListener;
+import com.sophiemarceauqu.lib_network.okhttp.listener.DisposeDataListener;
 import com.sophiemarceauqu.qxb_voice.api.MockData;
 import com.sophiemarceauqu.qxb_voice.api.RequestCenter;
 import com.sophiemarceauqu.qxb_voice.model.user.User;

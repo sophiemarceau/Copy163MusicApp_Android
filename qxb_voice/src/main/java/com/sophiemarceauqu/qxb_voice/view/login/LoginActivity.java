@@ -6,18 +6,9 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.sophiemarceauqu.lib_common_ui.base.BaseActivity;
-import com.sophiemarceauqu.lib_network.okhttp.response.listener.DisposeDataListener;
-import com.sophiemarceauqu.lib_network.okhttp.utils.ResponseEntityToModule;
 import com.sophiemarceauqu.qxb_voice.R;
-import com.sophiemarceauqu.qxb_voice.api.MockData;
-import com.sophiemarceauqu.qxb_voice.api.RequestCenter;
 import com.sophiemarceauqu.qxb_voice.view.login.inter.IUserLoginView;
-import com.sophiemarceauqu.qxb_voice.view.login.manager.UserManager;
 import com.sophiemarceauqu.qxb_voice.view.login.presenter.UserLoginPresenter;
-import com.sophiemarceauqu.qxb_voice.view.login.user.LoginEvent;
-import com.sophiemarceauqu.qxb_voice.view.login.user.User;
-
-import org.greenrobot.eventbus.EventBus;
 
 public class LoginActivity extends BaseActivity implements IUserLoginView {
     private UserLoginPresenter mUserLoginPresenter;

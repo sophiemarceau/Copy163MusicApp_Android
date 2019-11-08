@@ -14,7 +14,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
 import com.sophiemarceauqu.lib_common_ui.recyclerview.wrapper.LoadMoreWrapper;
-import com.sophiemarceauqu.lib_network.okhttp.response.listener.DisposeDataListener;
+import com.sophiemarceauqu.lib_network.okhttp.listener.DisposeDataListener;
 import com.sophiemarceauqu.lib_network.okhttp.utils.ResponseEntityToModule;
 import com.sophiemarceauqu.qxb_voice.R;
 import com.sophiemarceauqu.qxb_voice.api.MockData;
